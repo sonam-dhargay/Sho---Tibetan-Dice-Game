@@ -74,6 +74,6 @@ export enum GameMode {
 
 // Network Packets
 export interface NetworkPacket {
-  type: 'SYNC' | 'ROLL_REQ' | 'MOVE_REQ' | 'RESET_REQ' | 'SKIP_REQ' | 'FULL_SYNC' | 'JOIN_INFO';
+  type: 'SYNC' | 'ROLL_REQ' | 'MOVE_REQ' | 'RESET_REQ' | 'SKIP_REQ' | 'FULL_SYNC' | 'JOIN_INFO' | 'SELECTION_UPDATE' | 'START_GAME';
   payload?: any;
 }

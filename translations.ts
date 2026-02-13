@@ -1,3 +1,4 @@
+
 export const T = {
   common: {
     back: { en: "Back", bo: "ཕྱིར་ལོག།" },
@@ -18,7 +19,7 @@ export const T = {
     copyright: { en: "© 2026 Lungta Labs. All rights reserved.", bo: "© ༢༠༢༦ རླུང་རྟ་ཚོད་ལྟ་ཁང་། བདག་དབང་ཆ་ཚང་ཡོད།" },
     version: { en: "Version 1.0.0", bo: "ཐོན་རིམ་ ༡.༠.༠" },
     releaseNotes: { en: "Release Note: Initial digital prototype.", bo: "གསལ་བཤད། ཐོག་མའི་ཚོད་ལྟའི་ཐོན་རིམ།" },
-    contact: { en: "Questions? lungta.lab@gmail.com", bo: "འབྲེལ་གཏུག: lungta.lab@gmail.com" },
+    contact: { en: "Questions? lungta.labs@gmail.com", bo: "འབྲེལ་གཏུག: lungta.labs@gmail.com" },
     released: { en: "Released 2026", bo: "༢༠༢༦ ལོར་འགྲེམས་སྤེལ་བྱས།" },
     thanks: { 
       en: "With thanks to community elders and players who preserve the living tradition of Sho.", 
@@ -52,7 +53,10 @@ export const T = {
     hostInstruction: { en: "Click below to generate a room code, then send it to your opponent.", bo: "གཤམ་གྱི་མཐེབ་ཅི་མནན་ནས་ཁང་བའི་ཨང་གྲངས་བཟོས་རྗེས་ཁ་གཏད་ལ་ཐོང་།" },
     joinHeader: { en: "Join a Match", bo: "རྩེད་མོར་ཞུགས་ཤིག" },
     joinInstruction: { en: "Enter the room code shared by your opponent.", bo: "ཁ་གཏད་ཀྱྱིས་བསྐུར་བའི་ཁང་བའི་ཨང་གྲངས་དེ་འདི་རུ་བྲིས།" },
-    waiting: { en: "Waiting for Guest...", bo: "མགྲོན་པོར་སྒུག་སྡོད་བཞིན་པ་..." }
+    waiting: { en: "Waiting for Opponent...", bo: "མགྲོན་པོར་སྒུག་སྡོད་བཞིན་པ་..." },
+    conflictTitle: { en: "Selection Conflict", bo: "གདམ་གར་འགལ་བ།" },
+    conflictDesc: { en: "This color or avatar is already taken! Please choose another.", bo: "ཚོས་གཞིའམ་འདྲ་པར་འདི་བདམས་ཟིན་འདུག གཞན་ཞིག་འདེམས་རོགས།" },
+    startGame: { en: "Start Match", bo: "རྩེད་མོ་འགོ་ཚུགས།" }
   },
   auth: {
     gateTitle: { en: "Play Multi-Player", bo: "གྲངས་མང་གི་རྩེད་མོ་ལ་རོལ་ཅིག" },

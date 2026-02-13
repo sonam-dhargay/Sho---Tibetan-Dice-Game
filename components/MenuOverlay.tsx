@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { T } from '../translations';
 
@@ -69,7 +70,7 @@ export const MenuOverlay: React.FC<MenuOverlayProps> = ({
               </div>
 
               <div className="space-y-1 py-2">
-                <a href="mailto:lungta.lab@gmail.com" className="text-amber-600 hover:text-amber-500 text-xs font-bold underline transition-colors block">
+                <a href="mailto:lungta.labs@gmail.com" className="text-amber-600 hover:text-amber-500 text-xs font-bold underline transition-colors block">
                   {T.menu.contact.en}
                 </a>
                 <p className="text-stone-500 text-[10px] font-serif">{T.menu.contact.bo}</p>
